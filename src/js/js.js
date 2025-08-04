@@ -64,6 +64,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+
+  const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+  if (isTouchDevice) return; 
+
   const inner = document.createElement("div");
   const outer = document.createElement("div");
   const label = document.createElement("div");
