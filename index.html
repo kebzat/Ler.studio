@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro Ler.Studio</title>
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">Tomáš Kebza</div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">
+          <span class="hero__greeting animated-text" data-gsap-delay="0">Ahoj</span>
+          <span class="hero__title--color animated-text" data-gsap-delay="0.2">Ler.Studio</span>
+          <div class="hero__title--smaller animated-text" data-gsap-delay="0.4">Mám zájem u vás pracovat 😊</div>
+        </h1>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="about__wrap">
+          <div class="about__left">
+            <h2 class="about__title animated-text">Něco málo o mě</h2>
+            <p class="about__text animated-text" data-gsap-delay="0.4">
+              Jmenuji se Tomáš Kebza a už sedmým rokem se živím frontend vývojem. Hned po škole si mě pod svá křídla
+              vzalo studio Animato, kde jsem profesně vyrostl – a teď cítím, že je čas na změnu.
+              Mám zkušenosti s HTML, SCSS, PHP, Tailwindem, Alpine.js, GSAPem a Gitem. Lehce jsem nakoukl i do světa Vue
+              a Reactu – ale tam zatím spíš jenom koukám.<br><br>
+              V osobním životě mám tu nejhezčí partu: milující manželku a dvě malé děti, které mě každý den učí
+              trpělivosti i radosti z maličkostí. Ve volném čase mě najdete někde v horách, na motorce, na kole, na
+              lyžích, nebo někde běhat v hradeckých lesích. Když zrovna někde neběhám, tak si rád odpočinu na rybách.
+              😄<br><br>
+              Mám velký zájem stát se součástí vašeho týmu – a protože nechci zapadnout mezi klasické životopisy,
+              vytvořil jsem pro vás web. Snad vás zaujme stejně jako mě vaše práce.
+            </p>
+          </div>
+          <div class="about__right animated-text">
+            <img src="src/imgs/kebza.jpg" alt="Tomáš Kebza" class="about__image" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work">
+      <div class="container">
+        <h2 class="work__title">Výběr prací</h2>
+        <div class="work__grid">
+          <a href="https://www.3dadvertising.cz/" target="_blank" class="work__item">
+            <div class="work__item-left animated-left">
+              <h3 class="work__item-title">3DADVERTISING</h3>
+              <p class="work__item-description">Nejnovější projekt, který jsem kódoval v Tailwindu</p>
+            </div>
+            <div class="work__item-right">
+              <img class="work__item-img" src="src/imgs/astron.png" alt="Astron" loading="lazy">
+            </div>
+            <div class="work__item-border"></div>
+          </a>
+          <a href="https://www.accept.cz/" target="_blank" class="work__item">
+            <div class="work__item-left animated-left">
+              <h3 class="work__item-title">ACCEPT</h3>
+              <p class="work__item-description">Starší projekt s různými efekty</p>
+            </div>
+            <div class="work__item-right">
+              <img class="work__item-img" src="src/imgs/accept.png" alt="Accept" loading="lazy">
+            </div>
+            <div class="work__item-border"></div>
+          </a>
+          <a href="https://www.mycomedica.cz/" target="_blank" class="work__item">
+            <div class="work__item-left animated-left">
+              <h3 class="work__item-title">MYCOMEDICA</h3>
+              <p class="work__item-description">Velký e-shop spoustu e-shopových funkcí a modulů na míru.</p>
+            </div>
+            <div class="work__item-right">
+              <img class="work__item-img" src="src/imgs/myco.png" alt="Myco" loading="lazy">
+            </div>
+            <div class="work__item-border"></div>
+          </a>
+          </a>
+          <a href="https://www.ivecotc.cz/" target="_blank" class="work__item">
+            <div class="work__item-left animated-left">
+              <h3 class="work__item-title">IVECO</h3>
+              <p class="work__item-description">Šablona pro Iveco distributory</p>
+            </div>
+            <div class="work__item-right">
+              <img class="work__item-img" src="src/imgs/iveco.png" alt="Iveco" loading="lazy">
+            </div>
+            <div class="work__item-border"></div>
+          </a>
+          <a href="https://www.ocividne.cz/" target="_blank" class="work__item">
+            <div class="work__item-left animated-left">
+              <h3 class="work__item-title">OČIVIDNĚ</h3>
+              <p class="work__item-description">Malý webík v tailwindu.</p>
+            </div>
+            <div class="work__item-right">
+              <img class="work__item-img" src="src/imgs/ocividne.png" alt="Ocividne" loading="lazy">
+            </div>
+            <div class="work__item-border"></div>
+          </a>
+          <a href="https://www.seminarvva.cz/" target="_blank" class="work__item">
+            <div class="work__item-left animated-left">
+              <h3 class="work__item-title">SEMINÁŘ VVA</h3>
+              <p class="work__item-description">Malý web s nákupem vstupenek</p>
+            </div>
+            <div class="work__item-right">
+              <img class="work__item-img" src="src/imgs/seminarvva.png" alt="Seminar VVA" loading="lazy">
+            </div>
+            <div class="work__item-border"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="reasons">
+      <div class="container">
+        <h2 class="reasons__title animated-text">Proč právě já?</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide animated-text" data-gsap-delay="0.1">
+              <div class="reasons__img">
+                <img src="src/imgs/lopata.jpg" alt="Nemakačenko" loading="lazy">
+              </div>
+              <div class="reasons__gradient"></div>
+              <div class="reasons__text">
+                Nejsem žádný nemakačenko <br> ať už s lopatou, nebo u klávesnice, makám naplno.
+              </div>
+            </div>
+            <div class="swiper-slide animated-text" data-gsap-delay="0.2">
+              <div class="reasons__img">
+                <img src="src/imgs/mapa.png" alt="Mapa" loading="lazy">
+              </div>
+              <div class="reasons__gradient"></div>
+              <div class="reasons__text">
+                Mám to k vám kousek <br> do kanceláře můžu dojít i v pyžamu.
+              </div>
+            </div>
+            <div class="swiper-slide animated-text" data-gsap-delay="0.3">
+              <div class="reasons__img">
+                <img src="src/imgs/pohoda.jpg" alt="Pohoda" loading="lazy">
+              </div>
+              <div class="reasons__gradient"></div>
+              <div class="reasons__text">
+                Jsem pohodář <br> a rád se přizpůsobím vašim potřebám.
+              </div>
+            </div>
+            <div class="swiper-slide animated-text" data-gsap-delay="0.4">
+              <div class="reasons__img">
+                <img src="src/imgs/tata.jpg" alt="Táta" loading="lazy">
+              </div>
+              <div class="reasons__gradient"></div>
+              <div class="reasons__text">
+                Jsem táta a tak vím, <br> že čas je drahý a efektivita práce je pro mě důležitá.
+              </div>
+            </div>
+            <div class="swiper-slide animated-text" data-gsap-delay="0.5">
+              <div class="reasons__img">
+                <img src="src/imgs/motorkar.jpg" alt="Motorkář" loading="lazy">
+              </div>
+              <div class="reasons__gradient"></div>
+              <div class="reasons__text">
+                Když v týmu začnou hořet termíny, nasedám a rozjíždím to.<br> (Směrem ke kódu, ne na dovolenou...
+                většinou. 😄)
+              </div>
+            </div>
+            <div class="swiper-slide animated-text" data-gsap-delay="0.6">
+              <div class="reasons__img">
+                <img src="src/imgs/skialp.jpg" alt="Skialpinista" loading="lazy">
+              </div>
+              <div class="reasons__gradient"></div>
+              <div class="reasons__text">
+                Jsem nadšený lyžař a miluji výzvy,<br> které mě posouvají vpřed.
+              </div>
+            </div>
+            <div class="swiper-slide animated-text" data-gsap-delay="0.7">
+              <div class="reasons__img">
+                <img src="src/imgs/ryba.jpg" alt="Ryba" loading="lazy">
+              </div>
+              <div class="reasons__gradient"></div>
+              <div class="reasons__text">
+                Mám faaaaakt velkýýýýýýho
+                <div class="reasons__text-hover">JESETERA, ale také trpělivost jako u ryb 😊</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+          aria-controls="swiper-wrapper-a4c2303105e65cd310" aria-disabled="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+            <path d="M5.33473 16.2965H27.9621" stroke="#161620" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+            <path d="M16.377 4.2757L28.3978 16.2965L16.377 28.3173" stroke="#161620" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+          aria-controls="swiper-wrapper-a4c2303105e65cd310" aria-disabled="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+            <path d="M27.6653 16.2965H5.0379" stroke="#161620" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+            <path d="M16.623 4.2757L4.60223 16.2965L16.623 28.3173" stroke="#161620" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="footer__left">
+            <div class="footer__title animated-text">Budu rád, když se moje další profesní cesta potká právě s tou vaší.</div>
+          </div>
+          <div class="footer__right">
+            <a href="mailto:kebzat@gmail.com" class="footer__link animated-left" data-gsap-delay="0.2">kebzat@gmail.com</a>
+            <a href="tel:603732263" class="footer__link animated-left" data-gsap-delay="0.3">+420 603 732 263</a>
+            <a href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-kebza-154906153/" target="_blank"
+              class="footer__link animated-left" data-gsap-delay="0.4">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="src/js/js.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiperElements = document.querySelectorAll('.reasons');
+    swiperElements.forEach((element) => {
+      const swiperElement = element.querySelector('.swiper');
+      const swiper = new Swiper(swiperElement, {
+        loop: false,
+        spaceBetween: 16,
+        slidesPerView: 'auto',
+        pagination: {
+          el: element.querySelector('.swiper-pagination'),
+          clickable: true,
+        },
+        navigation: {
+          nextEl: element.querySelector('.swiper-button-next'),
+          prevEl: element.querySelector('.swiper-button-prev'),
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 'auto',
+            spaceBetween: 32,
+          },
+        }
+      });
+    })
+  </script>
+
+</body>
+
+
+
+</html>

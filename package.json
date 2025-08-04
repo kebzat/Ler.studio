@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-cv",
+  "version": "1.0.0",
+  "description": "Moje osobní portfolio s Gulpem a SASS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
